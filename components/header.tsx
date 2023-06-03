@@ -83,9 +83,9 @@ export const Header = () => {
         </div>
 
         <div className="ml-auto flex h-full items-center">
-          <Link className="mr-6 text-sm" href="#">
+          {/* <Link className="mr-6 text-sm" href="#">
             Rewards
-          </Link>
+          </Link> */}
           <Button href="#">Log in</Button>
         </div>
 

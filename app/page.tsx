@@ -10,13 +10,14 @@ import { UnlikeAnyTool } from "../components/sections/unlike-any-tool";
 import JoinUs from "../components/joinus";
 import ShowCase from "../components/sections/showcase";
 import Mockup from "../components/sections/mockup";
-
+import Hero from "../components/sections/hero";
 export default function Homepage() {
   return (
     <>
       <div className="overflow-hidden pb-[16.4rem] md:pb-[25.6rem] scrollbar-w-2 scrollbar-track-gray-200 scrollbar-thumb-gray-500 hover:scrollbar-thumb-gray-700">
         <Container className="pt-[6.4rem]">
-          <HomepageHero />
+          {/* <HomepageHero /> */}
+          <Hero/>
         </Container>
       </div>
       <Container>
