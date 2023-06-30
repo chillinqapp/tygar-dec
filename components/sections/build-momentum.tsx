@@ -16,36 +16,36 @@ export const BuildMomentum = () => {
       <Features.Main
         title={
           <>
-            Build momentum
+             Building Projects 
+
             <br />
-            with Cycles
-          </>
+            for a Better Tomorrow          </>
         }
         image="/potion.gif"
         imageSize="large"
-        text="Cycles focus your team on what work should happen next. A healthy routine to maintain velocity and make meaningful progress."
+        text=" Shaping Teams, Products & Processes for the Future of Entrepreneurs"
       />
       <Features.Grid
         features={[
           {
             icon: ParentSubIcon,
-            title: "Automatic tracking.",
-            text: "Any started issues are added to the current cycle.",
+            title: "Equity",
+            text: " Collaborate with us through equity partnerships instead of bearing all expenses in direct payments.",
           },
           {
             icon: AutomatedBacklogIcon,
-            title: "Scheduled.",
-            text: "Unfinished work rolls over to the next cycle automatically.",
+            title: "Token",
+            text: "Leverage the potential of tokenization by exploring token-based collaboration models.            ",
           },
           {
             icon: WorkflowsIcon,
-            title: "Fully configurable.",
-            text: "Define start date, end date, duration, and more.",
+            title: "Retainer",
+            text: "For ongoing support and advisory services, opt for our retainer model, ensuring a dedicated partnership for continuous growth.",
           },
           {
             icon: CustomViewsIcon,
-            title: "Predict delays.",
-            text: "Get warnings for at-risk cycles.",
+            title: "Lump-sum",
+            text: "One-time payments for businesses that need solutions in short bursts.",
           },
           {
             icon: DiscussionIcon,

@@ -6,47 +6,45 @@ import { SlackIcon } from "./icons/slack";
 import { TwitterIcon } from "./icons/twitter";
 import Image from "next/image";
 
-// const footerLinks = [
-//   {
-//     title: "Product",
-//     links: [
-//       { title: "Features", href: "#" },
-//       { title: "Integrations", href: "#" },
-//       { title: "Pricing", href: "#" },
-//       { title: "Changelog", href: "#" },
-//       { title: "Docs", href: "#" },
-//       { title: "Linear Method", href: "#" },
-//       { title: "Download", href: "#" },
-//     ],
-//   },
-//   {
-//     title: "Company",
-//     links: [
-//       { title: "About us", href: "#" },
-//       { title: "Blog", href: "#" },
-//       { title: "Careers", href: "#" },
-//       { title: "Customers", href: "#" },
-//       { title: "Brand", href: "#" },
-//     ],
-//   },
-//   {
-//     title: "Resources",
-//     links: [
-//       { title: "Community", href: "#" },
-//       { title: "Contact", href: "#" },
-//       { title: "DPA", href: "#" },
-//       { title: "Terms of service", href: "#" },
-//     ],
-//   },
-//   {
-//     title: "Developers",
-//     links: [
-//       { title: "API", href: "#" },
-//       { title: "Status", href: "#" },
-//       { title: "GitHub", href: "#" },
-//     ],
-//   },
-// ];
+const footerLinks = [
+  {
+    title: "Product",
+    links: [
+      { title: "Features", href: "#" },
+      { title: "Integrations", href: "#" },
+      { title: "Pricing", href: "#" },
+      { title: "Docs", href: "#" },
+      { title: "Download", href: "#" },
+    ],
+  },
+  {
+    title: "Company",
+    links: [
+      { title: "About us", href: "#" },
+      { title: "Privacy Policy", href: "#" },
+      { title: "Terms Of Use", href: "#" },
+      { title: "Customers", href: "#" },
+      { title: "Cookie Policy", href: "#" },
+    ],
+  },
+  {
+    title: "Resources",
+    links: [
+      { title: "Community", href: "#" },
+      { title: "Contact", href: "#" },
+      { title: "DPA", href: "#" },
+      { title: "Terms of service", href: "#" },
+    ],
+  },
+  {
+    title: "Developers",
+    links: [
+      { title: "API", href: "#" },
+      { title: "Status", href: "#" },
+      { title: "GitHub", href: "#" },
+    ],
+  },
+];
 
 export const Footer = () => (
   <footer className="mt-12 border-t border-transparent-white py-[5.6rem] text-sm">
@@ -55,6 +53,7 @@ export const Footer = () => (
         <div className="flex h-full flex-row justify-between lg:flex-col">
           <div className="flex items-center text-grey">
             <Image src="/logo.png" alt='/logo.png' width={150} height={100} className="mr-4 " /> 
+
           </div>
         </div>
       </div>
@@ -63,7 +62,7 @@ export const Footer = () => (
             <GithubIcon />
             <SlackIcon />
           </div>
-      {/* <div className="flex flex-wrap">
+      <div className="flex flex-wrap">
         {footerLinks.map((column) => (
           <div
             key={column.title}
@@ -84,7 +83,10 @@ export const Footer = () => (
             </ul>
           </div>
         ))}
-      </div> */}
+      </div>
     </Container>
+  
+
+
   </footer>
 );

@@ -12,9 +12,9 @@ export const section10Content = {
   export const section5Content = {
     BannerBgImage,
     BannerBgImageMobile,
-    title: "VR Guild",
+    title: "High Definition 3D Art",
     subtitle:
-      "The Fusion upgrade makes swaps on 1inch yet more efficient and secure, combining liquidity from the entire crypto market in one place.",
+      "We use Blender & Spline to create 3D assets, models & art.      ",
   };
   const  NewsImg = "/news.webp";
 const Phone1Img = "/mockup1.png";
@@ -25,9 +25,9 @@ const Phone5Img = "/mockup5.png";
 
 export const section4Content = {
     top: {
-      title: "Engage with Tygar Decentralized",
+      title: "Transform Dreams into Reality with Tygars",
       subtitle:
-        "We are an innovation company driven by the spirit of Tigers in the Jungle.",
+        "Experts from a variety of industries will work on your project to ensure that your dream project comes to life.",
 
 
       image: NewsImg,

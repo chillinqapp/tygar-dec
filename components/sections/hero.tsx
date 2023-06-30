@@ -1,5 +1,6 @@
+"use client"
 import React from 'react'
-import Link from 'next/link'
+import Spline from '@splinetool/react-spline';
 import { twMerge } from "tailwind-merge"
 import {clsx, ClassValue} from 'clsx'
 import { cva } from 'class-variance-authority'
@@ -77,7 +78,8 @@ const Hero = () => {
       <h1 className="font-bold text-6xl sm:text-5xl md:text-7xl lg:text-7xl">
       Unlock your Web3 Potential: Innovate, Collaborate, Succeed!      </h1>
       <HeroSubtitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
-      We are an innovation company driven by the spirit of Tigers in the Jungle.       <br className="hidden md:block" /> We specialize in providing a range of services that encompass consultations,<br className="hidden md:block" />strategizing, design, and development.
+      Welcome to Tygar Decentralized, where innovation roars!   <br className="hidden md:block" /> Join us for a cup of coffee at our office, and let's explore the possibilities 
+<br className="hidden md:block" />of synergy for your project. 
     </HeroSubtitle>
       <div className="space-x-4">
         
@@ -106,6 +108,7 @@ const Hero = () => {
     </Button> */}
        
       </div>
+       <Spline scene="https://prod.spline.design/gft8UsKojbX6Cd1Z/scene.splinecode"/>
     </div>
   </section>
   )

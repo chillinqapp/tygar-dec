@@ -16,10 +16,10 @@ export const EnjoyIssueTracking = () => {
       <Features.Main
         title={
           <>
-            Issue tracking
+             We Partners 
+
             <br />
-            you'll enjoy using
-          </>
+            in your Success          </>
         }
         image="/arata.gif"
         text="Our Services"
@@ -29,32 +29,32 @@ export const EnjoyIssueTracking = () => {
           {
             icon: ParentSubIcon,
             title: "Consultations",
-            text: " Our team of experts is here to guide you through the intricacies of the Web3 landscape.",
+            text: " Unlock Your Web3 Potential - Gain expert insights and strategic guidance tailored to your project's needs for a successful journey into the decentralized world.",
           },
           {
             icon: AutomatedBacklogIcon,
             title: "Strategizing",
-            text: " We help you devise effective plans, identify opportunities, and mitigate risks, giving your venture a competitive edge.",
+            text: "Pave Your Path to Success - Collaborate with our seasoned strategists to devise innovative plans, seize opportunities, and outmanoeuvre competitors in the ever-evolving Web3 landscape.",
           },
           {
             icon: WorkflowsIcon,
             title: "Design",
-            text: "We blend artistry and functionality to bring your vision to life.            ",
+            text: "Transform Ideas into Captivating Experiences - From stunning UI/UX designs to mesmerizing NFTs, our creative team crafts immersive digital experiences that leave a lasting impression.  ",
           },
           {
             icon: CustomViewsIcon,
             title: "Development",
-            text: "Whether you need a mobile app, dApp, smart contracts, websites, or custom solutions, our experienced developers deliver robust and scalable solutions using the latest technologies. ",
+            text: "Build the Future of Web3 - From cutting-edge apps to smart contracts and dApps, our experienced developers bring your vision to life, leveraging the power of both web2 & web3 technologies.",
           },
           {
             icon: DiscussionIcon,
-            title: "Discussion.",
-            text: "Collaborate on issues without losing context.",
+            title: "Risk Assessment.",
+            text: "Navigate Safely in the Decentralized universe - Mitigate risks with our thorough analysis and proactive strategies, ensuring a secure and resilient foundation for your Web3 venture.",
           },
           {
             icon: IssuesIcon,
-            title: "Issue templates.",
-            text: "Guide your team to write effective issues.",
+            title: "Brainstorming",
+            text: "Ignite Ideas, Unleash Innovation - Unleash the collective genius of our experts as we brainstorm and collaborate with you to refine concepts, explore possibilities, and spark groundbreaking solutions.",
           },
         ]}
       />
@@ -64,7 +64,7 @@ export const EnjoyIssueTracking = () => {
             image: "/card-board.png",
             imageClassName: "top-[55%] md:top-[40%] md:left-[12px] w-[200%]",
             title: "List and board",
-            text: "Switch between list and board layout to view work from any angle.",
+            text: "10,000 Anime PFP NFTs with  Lore, Art & Smart Contract on Binance’s BEP20 Network!",
           },
           {
             image: "/card_views.png",

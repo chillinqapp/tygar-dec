@@ -67,7 +67,7 @@ import {
                   sx={{ height: 48 }}
 
                 >
-                  Learn more
+                  See more
                 </OutlinedButton>
               </Stack>
             </Grid>

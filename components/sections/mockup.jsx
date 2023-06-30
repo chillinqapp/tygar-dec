@@ -25,9 +25,9 @@ const Mockup = () => {
               {top.subtitle}
             </HeroSubtitle>
 
-            <OutlinedButton arrow fit >
+            {/* <OutlinedButton arrow fit >
               Host
-            </OutlinedButton>
+            </OutlinedButton> */}
           </Stack>
         </Grid>
 

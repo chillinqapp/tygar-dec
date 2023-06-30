@@ -9,6 +9,9 @@ import ShowCase from "../components/sections/showcase";
 import Mockup from "../components/sections/mockup";
 import Hero from "../components/sections/hero";
 import Testimonials from "../components/sections/Testimonials";
+
+
+
 export default function Homepage() {
   return (
     <>
@@ -16,6 +19,7 @@ export default function Homepage() {
         <Container className="pt-[6.4rem]">
           {/* <HomepageHero /> */}
           <Hero/>
+          {/* <Spline scene="https://prod.spline.design/gft8UsKojbX6Cd1Z/scene.splinecode"/> */}
         </Container>
       </div>
       <Container>
