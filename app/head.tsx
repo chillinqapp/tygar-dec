@@ -1,10 +1,11 @@
 export default function Head() {
   return (
     <>
-      <title>Eventify v2</title>
+      <title>Tygar Decentralized</title>
+
       <meta
         name="description"
-        content="NFT ticketing platform using web2 logins."
+        content="Unlock your Web3 Potential: Innovate, Collaborate, Succeed!"
       />
       <meta name="robots" content="noindex" />
     </>

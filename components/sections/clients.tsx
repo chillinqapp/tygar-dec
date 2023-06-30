@@ -1,16 +1,5 @@
-import { AlanLogo } from "../logos/alan";
-import { ArcLogo } from "../logos/arc";
-import { CashAppLogo } from "../logos/cashapp";
-import { DescriptLogo } from "../logos/descript";
-import { LoomLogo } from "../logos/loom";
-import { MercuryLogo } from "../logos/mercury";
-import { OpenSeaLogo } from "../logos/opensea";
-import { PitchLogo } from "../logos/pitch";
-import { RampLogo } from "../logos/ramp";
-import { RaycastLogo } from "../logos/raycast";
-import { RetoolLogo } from "../logos/retool";
-import { VercelLogo } from "../logos/vercel";
-
+import Image from "next/image";
+import { arata, blokden, chillinq, elvis, eventify, kaizen, lawbriefcase, nine, polygon, sukrit, techland, tlc, unicorn } from "../logos";
 export const Clients = () => (
   <>
     <p className="mb-12 text-center text-lg text-white md:text-xl">
@@ -22,18 +11,24 @@ export const Clients = () => (
     </p>
 
     <div className="flex flex-wrap justify-around gap-x-6 gap-y-8 [&_svg]:max-w-[16rem] [&_svg]:basis-[calc(50%-12px)] md:[&_svg]:basis-[calc(16.66%-20px)]">
-      <RampLogo />
-      <LoomLogo className="hidden md:block" />
-      <VercelLogo />
-      <DescriptLogo className="hidden md:block" />
-      <CashAppLogo />
-      <RaycastLogo />
-      <MercuryLogo />
-      <RetoolLogo />
-      <AlanLogo className="hidden md:block" />
-      <ArcLogo className="hidden md:block" />
-      <OpenSeaLogo className="hidden md:block" />
-      <PitchLogo className="hidden md:block" />
+      <Image src={tlc} alt="/polygon.png" height={100} width={180} className="ml-6 hidden md:block"/>
+      <Image src={polygon} alt="/polygon.png" height={50} width={170} className="ml-6 hidden md:block"/>
+      {/* <Image src={polygon} alt="/polygon.png" height={40} width={150} className="mr-6"/> */}
+      <Image src={kaizen} alt="/polygon.png" height={50} width={110} className="ml-6 hidden md:block"/>
+      <Image src={eventify} alt="/polygon.png" height={30} width={110} className="ml-6 hidden md:block"/>
+      <Image src={lawbriefcase} alt="/polygon.png" height={90} width={120} className="ml-6 hidden md:block"/>
+      {/* <Image src={chillinq} alt="/polygon.png" height={30} width={180} className="ml-6 hidden md:block"/> */}
+      
+      <Image src={techland} alt="/polygon.png" height={100} width={110} className="ml-6 hidden md:block"/>
+
+      <Image src={arata} alt="/polygon.png" height={50} width={110} className="ml-6 hidden md:block"/>
+      <Image src={unicorn} alt="/polygon.png" height={30} width={80} className="ml-6 hidden md:block"/>
+      <Image src={sukrit} alt="/polygon.png" height={30} width={100} className="ml-6 hidden md:block"/>
+      <Image src={nine} alt="/polygon.png" height={30} width={100} className="ml-6 hidden md:block"/>
+      <Image src={chillinq} alt="/polygon.png" height={30} width={180} className="ml-6 hidden md:block"/>
+
+
+
     </div>
   </>
 );

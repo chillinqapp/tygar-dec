@@ -30,15 +30,15 @@ export const Header = () => {
   }, [setHamburgerMenuIsOpen]);
 
   return (
-    <header className="fixed top-0 left-0 z-10 w-full border-b border-transparent-white backdrop-blur-[12px]">
+    <header className="fixed top-0 left-0 z-10 w-full border-transparent-white backdrop-blur-[12px] mt-4">
       <Container className="flex h-navigation-height">
         <Link className="flex items-center text-md" href="/">
-          <Image src='/logo.svg' alt='/logo.svg' height={1} width={1} className="mr-4 h-[1.8rem] w-[1.8rem]" /> Eventify
+          <Image src='/logo.png' alt='/logo.png' height={200} width={350} className="mr-4 mt-4 "/>
         </Link>
 
         <div
           className={classNames(
-            "transition-[visibility] md:visible",
+            "transition-[visibility] md:visible ",
             hamburgerMenuIsOpen ? "visible" : "delay-500 invisible"
           )}
         >
@@ -86,7 +86,7 @@ export const Header = () => {
           {/* <Link className="mr-6 text-sm" href="#">
             Rewards
           </Link> */}
-          <Button href="#">Log in</Button>
+          <Button href="#">Book a Call</Button>
         </div>
 
         <button

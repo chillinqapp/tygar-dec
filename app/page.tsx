@@ -4,13 +4,12 @@ import { StarsIllustration } from "../components/icons/stars";
 import { BuildMomentum } from "../components/sections/build-momentum";
 import { Clients } from "../components/sections/clients";
 import { EnjoyIssueTracking } from "../components/sections/enjoy-issue-tracking";
-import { HomepageHero } from "../components/sections/homepage-hero";
-import { SetDirection } from "../components/sections/set-direction";
-import { UnlikeAnyTool } from "../components/sections/unlike-any-tool";
 import JoinUs from "../components/joinus";
 import ShowCase from "../components/sections/showcase";
 import Mockup from "../components/sections/mockup";
 import Hero from "../components/sections/hero";
+import Testimonials from "../components/sections/Testimonials";
+import CTA from '../components/sections/CTA'
 export default function Homepage() {
   return (
     <>
@@ -33,12 +32,14 @@ export default function Homepage() {
       >
         <StarsIllustration />
       </div>
-      {/* <UnlikeAnyTool /> */}
-
+        <Container>
+          <Clients/>
+        </Container>
       <EnjoyIssueTracking />
       <ShowCase/>
       <BuildMomentum />
-
+      <Testimonials/>
+     
       <JoinUs/>
 
       {/* <SetDirection /> */}

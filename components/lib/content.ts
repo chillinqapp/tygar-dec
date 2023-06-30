@@ -25,15 +25,15 @@ const Phone5Img = "/mockup5.png";
 
 export const section4Content = {
     top: {
-      title: "Host an Event",
+      title: "Engage with Tygar Decentralized",
       subtitle:
-        "Newly hosted events are first verified by moderators then available on featured events.",
+        "We are an innovation company driven by the spirit of Tigers in the Jungle.",
 
 
       image: NewsImg,
     },
     bottom: {
-      title: "NFT Tickets",
+      title: "Introducing Chillinq",
       TABS: [
         {
           name: "Buy",

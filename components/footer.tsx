@@ -54,7 +54,7 @@ export const Footer = () => (
       <div>
         <div className="flex h-full flex-row justify-between lg:flex-col">
           <div className="flex items-center text-grey">
-            <Image src="/logo.svg" alt='/logo.svg' width={1} height={1} className="mr-4 h-4 w-4" /> Eventify - Designed tickets
+            <Image src="/logo.png" alt='/logo.png' width={150} height={100} className="mr-4 " /> 
           </div>
         </div>
       </div>

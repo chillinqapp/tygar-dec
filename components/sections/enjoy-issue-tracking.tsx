@@ -21,30 +21,30 @@ export const EnjoyIssueTracking = () => {
             you'll enjoy using
           </>
         }
-        image="/issues.svg"
-        text="Create tasks in seconds, discuss issues in context, and breeze through your work in views tailored to you and your team."
+        image="/arata.gif"
+        text="Our Services"
       />
       <Features.Grid
         features={[
           {
             icon: ParentSubIcon,
-            title: "Parent and sub-issues.",
-            text: "Break larger takss into smaller issues",
+            title: "Consultations",
+            text: " Our team of experts is here to guide you through the intricacies of the Web3 landscape.",
           },
           {
             icon: AutomatedBacklogIcon,
-            title: "Automated backlog.",
-            text: "Linear will auto-close and auto-archive issues.",
+            title: "Strategizing",
+            text: " We help you devise effective plans, identify opportunities, and mitigate risks, giving your venture a competitive edge.",
           },
           {
             icon: WorkflowsIcon,
-            title: "Custom workflows",
-            text: "Define unique issue states for each team.",
+            title: "Design",
+            text: "We blend artistry and functionality to bring your vision to life.            ",
           },
           {
             icon: CustomViewsIcon,
-            title: "Filters and custom views.",
-            text: "See only what's relevant for you.",
+            title: "Development",
+            text: "Whether you need a mobile app, dApp, smart contracts, websites, or custom solutions, our experienced developers deliver robust and scalable solutions using the latest technologies. ",
           },
           {
             icon: DiscussionIcon,
@@ -61,15 +61,15 @@ export const EnjoyIssueTracking = () => {
       <Features.Cards
         features={[
           {
-            image: "/card-board.webp",
-            imageClassName: "top-[55%] md:top-[40%] w-[200%]",
+            image: "/card-board.png",
+            imageClassName: "top-[55%] md:top-[40%] md:left-[12px] w-[200%]",
             title: "List and board",
             text: "Switch between list and board layout to view work from any angle.",
           },
           {
-            image: "/card-views.webp",
+            image: "/card_views.png",
             imageClassName:
-              "top-[45%] left-[12px] md:top-[34%] md:left-[24px] w-[110%]",
+              "top-[75%] left-[12px] md:top-[40%] md:left-[24px] w-[110%]",
             title: "Make it yours",
             text: "Quickly apply filters and operators to refine your issue lists and create custom views.",
           },

@@ -75,11 +75,9 @@ const Hero = () => {
       <Highlight>→</Highlight>
     </Button>
       <h1 className="font-bold text-6xl sm:text-5xl md:text-7xl lg:text-7xl">
-      Enjoy NFT Tickets without any web3 wallets.
-      </h1>
+      Unlock your Web3 Potential: Innovate, Collaborate, Succeed!      </h1>
       <HeroSubtitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
-    The Ultimate NFT Ticketing Platform with a User-First Approach!
-     <br className="hidden md:block" /> Purchase Tickets with Ease Using Web2 Login. 
+      We are an innovation company driven by the spirit of Tigers in the Jungle.       <br className="hidden md:block" /> We specialize in providing a range of services that encompass consultations,<br className="hidden md:block" />strategizing, design, and development.
     </HeroSubtitle>
       <div className="space-x-4">
         
@@ -89,12 +87,12 @@ const Hero = () => {
       variant="primary"
       size="large"
     >
-      <span>Start Hosting </span>
+      <span>Get Started </span>
       <Highlight>
         <ChevronIcon />
       </Highlight>
     </Button>
-        <Button
+        {/* <Button
       className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:600ms]"
       href="/"
       variant="secondary"
@@ -105,7 +103,7 @@ const Hero = () => {
         <ChevronIcon />
       </Highlight>
       
-    </Button>
+    </Button> */}
        
       </div>
     </div>

@@ -7,7 +7,7 @@ const ChatHeader: FC = () => {
         <p className='text-xs text-background'>Chat with</p>
         <div className='flex gap-1.5 items-center'>
           <p className='w-2 h-2 rounded-full bg-background' />
-          <p className='ml-2 font-medium text-background'> Eventify support</p>
+          <p className='ml-2 font-medium text-background'>Tygar Dec support</p>
         </div>
       </div>
     </div>
