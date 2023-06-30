@@ -21,7 +21,7 @@ export const BuildMomentum = () => {
             with Cycles
           </>
         }
-        image="/cycles.svg"
+        image="/potion.gif"
         imageSize="large"
         text="Cycles focus your team on what work should happen next. A healthy routine to maintain velocity and make meaningful progress."
       />

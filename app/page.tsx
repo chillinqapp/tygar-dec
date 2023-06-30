@@ -9,7 +9,6 @@ import ShowCase from "../components/sections/showcase";
 import Mockup from "../components/sections/mockup";
 import Hero from "../components/sections/hero";
 import Testimonials from "../components/sections/Testimonials";
-import CTA from '../components/sections/CTA'
 export default function Homepage() {
   return (
     <>

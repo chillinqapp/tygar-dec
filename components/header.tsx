@@ -58,7 +58,7 @@ export const Header = () => {
               )}
             >
               <li>
-                <Link href="/dashboard">Dashboard</Link>
+                <Link href="/">Dashboard</Link>
               </li>
               <li>
                 <Link href="#">Host</Link>
@@ -67,7 +67,7 @@ export const Header = () => {
                 <Link href="#">Customers</Link>
               </li> */}
               <li className="md:hidden lg:block">
-                <Link href="/events">Events</Link>
+                <Link href="/">Events</Link>
               </li>
               <li className="md:hidden lg:block">
                 <Link href="#">Community</Link>
