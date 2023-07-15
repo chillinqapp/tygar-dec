@@ -22,7 +22,6 @@ export const BuildMomentum = () => {
             for a Better Tomorrow          </>
         }
         image="/potion.gif"
-        imageSize="large"
         text=" Shaping Teams, Products & Processes for the Future of Entrepreneurs"
       />
       <Features.Grid

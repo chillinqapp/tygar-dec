@@ -33,35 +33,35 @@ export const section4Content = {
       image: NewsImg,
     },
     bottom: {
-      title: "Introducing Chillinq",
+      title: "Showcasing Chillinq",
       TABS: [
         {
-          name: "Buy",
+          name: "Design",
           image: Phone4Img,
           subtitle:
-            "Buy crypto with your bank card using our partner fiat gateway providers.",
+            "Elevate your socializing experience with our sleek and intuitive design.",
         },
         {
-          name: "Store",
+          name: "Unique ",
           image: Phone3Img,
           subtitle:
-            "Your crypto is protected with the most sophisticated security measures.",
+            "Our advanced matchmaking algorithm, powered by a sophisticated Queue System, ensures timely and meaningful connections.",
         },
         {
-          name: "Transfer",
+          name: "Web3",
           image: Phone5Img,
-          subtitle: "Transfer crypto in multiple blockchain networks.",
+          subtitle: "Earn tokens, exclusive perks, and unforgettable experiences as you actively participate in our vibrant community.",
         },
         {
-          name: "Swap",
+          name: "Infra",
           image: Phone1Img,
-          subtitle: "Swap any amount of tokens at the best rates.",
+          subtitle: " Our robust infrastructure supports a flawless socializing experience for our users.          ",
         },
         {
-          name: "Stake",
+          name: "Content",
           image: Phone2Img,
           subtitle:
-            "Stake 1INCH to participate in network governance and be eligible for gas costs refunds.",
+        " Explore a diverse range of events, music, art, and more as you join the ultimate socializing revolution.",
         },
       ],
     },

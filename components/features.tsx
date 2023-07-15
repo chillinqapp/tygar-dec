@@ -40,7 +40,7 @@ type MainFeatureProps = {
   image: string;
   text: string;
   title: React.ReactNode;
-  imageSize?: "small" | "large";
+  imageSize?: "small" | "small";
 };
 
 const MainFeature = ({

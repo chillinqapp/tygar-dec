@@ -22,7 +22,6 @@ export const SetDirection = () => {
           </>
         }
         image="/roadmap.webp"
-        imageSize="large"
         text="Plan visually, collaborate in cross-team projects, and make better decisions with progress insights and project updates."
       />
       <Features.Grid

@@ -7,16 +7,7 @@ import { TwitterIcon } from "./icons/twitter";
 import Image from "next/image";
 
 const footerLinks = [
-  {
-    title: "Product",
-    links: [
-      { title: "Features", href: "#" },
-      { title: "Integrations", href: "#" },
-      { title: "Pricing", href: "#" },
-      { title: "Docs", href: "#" },
-      { title: "Download", href: "#" },
-    ],
-  },
+
   {
     title: "Company",
     links: [
@@ -32,8 +23,6 @@ const footerLinks = [
     links: [
       { title: "Community", href: "#" },
       { title: "Contact", href: "#" },
-      { title: "DPA", href: "#" },
-      { title: "Terms of service", href: "#" },
     ],
   },
   {
@@ -51,18 +40,11 @@ export const Footer = () => (
     <Container className="flex flex-col justify-between lg:flex-row">
       <div>
         <div className="flex h-full flex-row justify-between lg:flex-col">
-          <div className="flex items-center text-grey">
-            <Image src="/logo.png" alt='/logo.png' width={150} height={100} className="mr-4 " /> 
+        <div className="flex flex-wrap">
+      <div className="flex items-center text-grey">
+           <Image src="/logo.png" alt='/logo.png' width={150} height={100} className="mr-4 " /> 
 
           </div>
-        </div>
-      </div>
-          <div className="mt-auto flex space-x-4 text-grey">
-            <TwitterIcon />
-            <GithubIcon />
-            <SlackIcon />
-          </div>
-      <div className="flex flex-wrap">
         {footerLinks.map((column) => (
           <div
             key={column.title}
@@ -84,6 +66,14 @@ export const Footer = () => (
           </div>
         ))}
       </div>
+          {/* <div className="flex items-center text-grey">
+            <Image src="/logo.png" alt='/logo.png' width={150} height={100} className="mr-4 " /> 
+
+          </div> */}
+        </div>
+      </div>
+
+
     </Container>
   
 

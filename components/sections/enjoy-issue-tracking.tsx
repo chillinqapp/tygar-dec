@@ -16,7 +16,7 @@ export const EnjoyIssueTracking = () => {
       <Features.Main
         title={
           <>
-             We Partners 
+             We Partner
 
             <br />
             in your Success          </>

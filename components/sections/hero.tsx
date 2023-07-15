@@ -68,13 +68,20 @@ const Hero = () => {
     <div className="container flex max-w-[120rem] flex-col items-center gap-4 text-center">
     <Button
       className="translate-y-[-1rem] animate-fade-in opacity-0"
-      href="/"
+      href="https://www.instagram.com/tygardecentralized/"
       variant="secondary"
       size="small"
     >
-      <span>Follow along on twitter</span>{" "}
+      <span>Follow along on instagram</span>{" "}
       <Highlight>→</Highlight>
     </Button>
+    <div>
+
+    <Spline scene="https://prod.spline.design/PSnpzBeBpaAWhDB5/scene.splinecode"/>
+    </div>
+    {/* app.load('https://prod.spline.design/PSnpzBeBpaAWhDB5/scene.splinecode'); */}
+
+
       <h1 className="font-bold text-6xl sm:text-5xl md:text-7xl lg:text-7xl">
       Unlock your Web3 Potential: Innovate, Collaborate, Succeed!      </h1>
       <HeroSubtitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
@@ -108,7 +115,15 @@ const Hero = () => {
     </Button> */}
        
       </div>
-       <Spline scene="https://prod.spline.design/gft8UsKojbX6Cd1Z/scene.splinecode"/>
+      {/* <div>
+
+<Spline scene="https://prod.spline.design/PSnpzBeBpaAWhDB5/scene.splinecode"/>
+</div> */}
+
+       {/* <Spline scene="https://prod.spline.design/9ImXYsDtdxM7jMjA/scene.splinecode"/> */}
+       {/* app.load(''); */}
+       {/* app.load(''); */}
+
     </div>
   </section>
   )
