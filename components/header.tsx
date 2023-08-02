@@ -86,7 +86,7 @@ export const Header = () => {
           {/* <Link className="mr-6 text-sm" href="#">
             Rewards
           </Link> */}
-          <Button href="#">Book a Call</Button>
+          <Button href="#"><span className="text-xs sm:text-md">Call</span></Button>
         </div>
 
         <button
