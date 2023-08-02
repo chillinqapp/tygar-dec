@@ -62,7 +62,7 @@ export const EnjoyIssueTracking = () => {
         features={[
           {
             image: "/card-board.png",
-            imageClassName: "top-[55%] md:top-[40%] md:left-[12px] w-[200%]",
+            imageClassName: "top-[55%] md:top-[40%] md:left-[12px] w-[100%]",
             title: "List and board",
             text: "10,000 Anime PFP NFTs with  Lore, Art & Smart Contract on Binance’s BEP20 Network!",
           },
